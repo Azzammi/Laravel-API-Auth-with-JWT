@@ -12,6 +12,10 @@ To deliver you app on a server, you have to (on you dev environement) :
   * Adjust di env file
   * run `php artisan key:generate`
   * run `php artisan migrate:fresh --seed
+  * Create sqlite file
+```
+touch database/database.sqlite
+```
   * and just run `php artisan serve`
 
 
